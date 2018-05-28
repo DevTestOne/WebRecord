@@ -1,0 +1,60 @@
+<!DOCTYPE>
+<html><head>
+        <title>::Contenido::</title>
+        <link rel="SHORTCUT ICON" href="vl.ico">
+        </script>
+        
+        <link rel="stylesheet" type="text/css" href="estilo_dos.css" media="screen">
+
+        <link rel="stylesheet" type="text/css" href="VirtuaLibrary/cleanSlider.css">
+        <script type="text/javascript" src="VirtuaLibrary/jquery-1.js"></script>
+        <script type="text/javascript" src="VirtuaLibrary/jquery_002.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                var config = {};
+                config.width = 1010;  //pixels
+                config.height = 450;  //pixels 
+                config.intervalTime = 20000; //mili-seconds   
+                $('.slider').cleanSlider(config);
+            })
+        </script>
+    </head>
+    <body onload="javascript:document.Forma.stUser.focus();">
+<!--------------------------Cuerpo de captura-------------------------->
+  <div id="container">
+    <div>
+      <button id="record">Start Recording</button>
+      <button id="download" disabled>Download</button>
+    </div>
+<!--------------------------------------------------------------------->
+                    <div class="carrusel">
+                        <div data-image="2" data-count="4" data-id="0" style="width: 1000px; height: 370px;" class="slider clean_slider_container">
+                            <ul style="width: 1000px; height: 350px;" class="clean_slider_img_list">
+                                <li data-id="1"><a rel="no-follow" title=""><img class="clean_slider_image_shown" style="width: 1000px; height: 350px; display: none;" src="VirtuaLibrary/slider_1.jpg"></a></li>
+                                <li data-id="2"><a rel="no-follow" title=""><img class="clean_slider_image_shown" style="width: 1000px; height: 350px; display: inline;" src="VirtuaLibrary/slider_2.jpg"></a></li>
+                                <li data-id="3"><a rel="no-follow" title=""><img class="clean_slider_image_shown" style="width: 1000px; height: 350px; display: none;" src="VirtuaLibrary/slider_3.jpg"></a></li>
+                                <li data-id="4"><a rel="no-follow" title=""><img class="clean_slider_image_shown" style="width: 1000px; height: 350px; display: none;" src="VirtuaLibrary/slider_4.jpg"></a></li>          
+                                <li data-id="5"><a rel="no-follow" title=""><img class="clean_slider_image_shown" style="width: 1000px; height: 350px; display: none;" src="VirtuaLibrary/slider_5.jpg"></a></li>          
+                            
+							</ul>
+                        <div style="width: 64px;" class="clean_slider_mark_container"><ul><li><a class="" data-id="1" href="#"></a></li><li><a class="active" data-id="2" href="#"></a></li><li><a class="" data-id="3" href="#"></a></li><li><a class="" data-id="4" href="#"></a></li></ul></div></div>  
+                    </div>       
+
+<!--------------------------video descargado-------------------------->
+    <video id="recorded" autoplay loop></video> 
+	<button id="play" enabled> </button>
+    </div>
+
+  <script src="js/main.js"></script>
+  <script src="../js/lib/ga.js"></script>
+<!--------------------------------------------------------------------->      					    
+                  <div style="width:100%; float:left; position:relative; ">
+                        <div style="width:130px; float:right; position:relative;"> 
+                        </div>
+                    </div>
+					</div>
+
+
+
+                

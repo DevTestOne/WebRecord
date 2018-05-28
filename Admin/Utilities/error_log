@@ -1,0 +1,2 @@
+[25-Aug-2017 14:01:46 America/Mexico_City] PHP Fatal error:  Call to a member function select() on a non-object in /home2/savetech/confia.savetechnology.com.mx/Admin/Utilities/getUsers.php on line 8
+[25-Aug-2017 14:01:50 America/Mexico_City] PHP Fatal error:  Call to a member function select() on a non-object in /home2/savetech/confia.savetechnology.com.mx/Admin/Utilities/getUsers.php on line 8

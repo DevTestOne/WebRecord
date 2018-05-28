@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+ <database>
+  <server>localhost</server>
+  <user>savetech_admConf</user>
+  <password>JIL7CV;zTvK5</password>
+  <dbname>savetech_confia</dbname>
+ </database>
+</configuration>

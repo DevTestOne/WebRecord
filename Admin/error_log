@@ -1,0 +1,4 @@
+[09-Sep-2017 09:42:34 America/Mexico_City] PHP Fatal error:  Call to a member function getTest() on a non-object in /home2/savetech/confia.savetechnology.com.mx/Admin/updateTest.php on line 6
+[09-Sep-2017 09:43:55 America/Mexico_City] PHP Fatal error:  Call to a member function getTest() on a non-object in /home2/savetech/confia.savetechnology.com.mx/Admin/updateTest.php on line 6
+[16-Jan-2018 23:12:29 America/Mexico_City] PHP Warning:  require_once(../Class/class.Database.php): failed to open stream: No such file or directory in /home2/savetech/confia.savetechnology.com.mx/Admin/DMU/Utilerias.php on line 2
+[16-Jan-2018 23:12:29 America/Mexico_City] PHP Fatal error:  require_once(): Failed opening required '../Class/class.Database.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home2/savetech/confia.savetechnology.com.mx/Admin/DMU/Utilerias.php on line 2
